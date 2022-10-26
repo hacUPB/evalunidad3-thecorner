@@ -12,7 +12,7 @@ void context_ctor(context *this, void *nContext)
 {
     this->nContext = (istrategy*)nContext;
 
-    this->name = malloc(sizeof(char) * 20);
+    this->name = malloc(sizeof(char) * 15);
 
     char Name[15];
     printf("Insert text\n");
