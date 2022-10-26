@@ -13,11 +13,11 @@ concreteStrategyA *new_concreteStrategyA()
 void Algorithm1(void * name)
 {
     printf("Context:Sorting data using the strategy\n");
-    char *res =malloc(sizeof(char[20]));
-    strcpy(res,(char*)name);
-    printf("%s", res);
+    char* list = malloc(sizeof(char[15]));
+    strcpy(list,(char*)name);
+    printf("%s", list);
     printf("\n");
-    free(res);
+    free(list);
 
 }
 
