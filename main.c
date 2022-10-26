@@ -31,7 +31,6 @@ DoSomeBusinessLogic(context);
 
 context_free(context);
 
-//istrategy_dtor(Ntragety);
 
 free(context);
 free(Ntragety);
