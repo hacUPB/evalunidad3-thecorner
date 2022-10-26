@@ -9,7 +9,7 @@ istrategy *istrategy_new()
 }
 void Algorithmvoid(void *nombre)
 {
-    char * outcome = malloc(sizeof(char[20]));
+    char * outcome = malloc(sizeof(char[15]));
     strcpy(outcome,"Null");
     printf("%s", outcome);
     free(outcome);
